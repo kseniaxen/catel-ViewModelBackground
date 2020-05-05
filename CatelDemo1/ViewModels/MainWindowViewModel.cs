@@ -40,7 +40,8 @@
             mSlidesList = new List<IViewModel>
             {
                 new Slide1ViewModel(),
-                new Slide2ViewModel()
+                new Slide2ViewModel(),
+                new Slide3ViewModel()
             };
 
             //при загрузке окна по умолчанию загружаем первый слайд

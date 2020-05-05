@@ -74,11 +74,15 @@
     </ApplicationDefinition>
     <Compile Include="ViewModels\Slide1ViewModel.cs" />
     <Compile Include="ViewModels\Slide2ViewModel.cs" />
+    <Compile Include="ViewModels\Slide3ViewModel.cs" />
     <Compile Include="Views\Slide1View.xaml.cs">
       <DependentUpon>Slide1View.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Slide2View.xaml.cs">
       <DependentUpon>Slide2View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Slide3View.xaml.cs">
+      <DependentUpon>Slide3View.xaml</DependentUpon>
     </Compile>
     <Page Include="Views\DialogView.xaml">
       <SubType>Designer</SubType>
@@ -106,6 +110,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Slide2View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Slide3View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
